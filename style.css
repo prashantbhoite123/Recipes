@@ -63,6 +63,9 @@ input {
 #footer {
   display: none;
 }
+.inputBtnCon {
+  display: flex;
+}
 
 .hide {
   display: inline-block;
