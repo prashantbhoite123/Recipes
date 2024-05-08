@@ -4,23 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
+  <body style="background-color: #212121">
     <div class="conatiner">
-      <form action="">
-        <input type="text" name="input" id="input" />
-        <button type="submit" id="searchBtn">Search here</button>
-        <h1 class="statename"></h1>
-        <p id="pragraph"></p>
-
-      <div class="imgspace">
-        
+      <div class="input-container">
+        <h1 style="color: yellow">Recipes Search</h1>
+        <div class="image-con">
+          <img
+            src="https://cdn.dribbble.com/users/2556713/screenshots/7569532/media/266e0452b1ce6ebebee6d3d8871d6ddd.gif"
+            alt=""
+          />
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/0845c232253239.56766f2d063c9.gif"
+            alt=""
+          />
+        </div>
+        <form action="">
+          <input
+            type="text"
+            name="input"
+            id="input"
+            placeholder="Search Recipes"
+          />
+          <button type="submit" id="searchBtn">Search..?</button>
+        </form>
+        <img
+          src="https://media2.giphy.com/media/j2dv7H2pgFyoICoD6E/200w.gif"
+          alt=""
+        />
       </div>
-        <ul>
-
-        </ul>
-      </form>
+      <div class="container">
+        <div
+          class="row d-flex justify-content-center"
+          id="outPutcontainer"
+        ></div>
+      </div>
+      <!-- // Footer// -->
+      <div class="conatiner-fluid" id="footer">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-12 col-md">
+              <img
+                class="mb-2"
+                src="https://desifoodstories.com/wp-content/uploads/2022/11/Top-Pune-Banner.jpg"
+                alt=""
+                width="24"
+                height="24"
+              />
+              <small class="d-block mb-3 text-muted">© Prshu Recipes</small>
+            </div>
+            <div class="col-6 col-md">
+              <h5 class="text-warning">Features</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Cool stuff</a></li>
+                <li><a class="text-muted" href="#">Random feature</a></li>
+                <li><a class="text-muted" href="#">Team feature</a></li>
+                <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                <li><a class="text-muted" href="#">Another one</a></li>
+                <li><a class="text-muted" href="#">Last time</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5 class="text-warning">Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Resource</a></li>
+                <li><a class="text-muted" href="#">Resource name</a></li>
+                <li><a class="text-muted" href="#">Another resource</a></li>
+                <li><a class="text-muted" href="#">Final resource</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5 class="text-warning">About</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Team</a></li>
+                <li><a class="text-muted" href="#">Locations</a></li>
+                <li><a class="text-muted" href="#">Privacy</a></li>
+                <li><a class="text-muted" href="#">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
     <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
